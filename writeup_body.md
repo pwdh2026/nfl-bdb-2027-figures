@@ -42,15 +42,19 @@ This is not a fitted construct. We evaluated it with leave-one-draft-class-out c
 
 *Figure 3. Leave-one-draft-class-out R-squared for every candidate predictor of NFL get-off and pressure rate.*
 
-| Predictor of NFL get-off | Out-of-sample R² |
-|---|---|
-| **EMR (broad jump / weight)** | **0.62** |
-| Mass + broad jump | 0.58 |
-| Broad jump | 0.51 |
-| 40-yard dash | 0.49 |
-| 10-yard split | 0.39 |
-| Vertical jump | 0.29 |
-| NGS athleticism score | -0.08 |
+Out-of-sample R² across the same leave-one-draft-class-out splits: **EMR 0.62**, mass + broad jump 0.58, broad jump 0.51, 40-yard dash 0.49, 10-yard split 0.39, vertical jump 0.29, NGS athleticism score -0.08.
+
+**The scouting card.** Quartiles of EMR among the 57 linemen with at least 100 pass-rush snaps translate into expected NFL outcomes:
+
+| EMR quartile | EMR range | n | Mean NFL get-off | Pressure rate | Pressures / 400 rushes |
+|---|---|---|---|---|---|
+| Q1 (lowest) | 0.27–0.36 | 15 | 1.098 s | 5.2% | 26 |
+| Q2 | 0.36–0.40 | 14 | 1.032 s | 6.5% | 29 |
+| Q3 | 0.40–0.45 | 14 | 0.986 s | 7.8% | 35 |
+| Q4 (highest) | 0.45–0.53 | 14 | 0.894 s | 10.8% | 45 |
+| All | 0.27–0.53 | 57 | 1.004 s | 7.5% | 33 |
+
+One line of this card is the evaluation: two Combine measurements, one division, a projected first step and a projected pressure rate. It prices the error too — a bottom-quartile lineman costs about 19 pressures per 400 rushes against a top-quartile one.
 
 EMR outperforms every raw test, including the 40 (r = -0.80 versus +0.71). In a joint model containing both, EMR is significant (p = 0.001) and the 40 is not (p = 0.55): once force per pound is known, the stopwatch adds nothing. Moving a lineman from the 10th to the 90th percentile of EMR spans about **0.19 seconds of NFL get-off** — twice the full between-player standard deviation.
 
